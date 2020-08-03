@@ -1,5 +1,7 @@
 #!/bin/bash
 
+pkg install figlet -y
+
 clear
 figlet cYBER cRYPTO
 
