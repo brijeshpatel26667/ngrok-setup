@@ -5,8 +5,8 @@ pkg install figlet -y
 clear
 figlet cYBER cRYPTO
 
-if [-e ngrok]
-then 
+FILE=/home/.ngrok2/ngrok.yml
+if [ -f "$FILE" ]; then 
 echo "good to go"
 else
 echo -e "\e[3;96mDOWNLOADING NGROK \e[0m"
@@ -15,6 +15,9 @@ wget --no-check-certificate https://bin.equinox.io/a/e93TBaoFgZw/ngrok-2.2.8-lin
 unzip ngrok-2.2.8-linux-arm.zip
 fi
  clear
+ 
+figlet bRIZZESh
+
 
 echo -e "    \e[101m\e[1;77m:: This Tool Will Help You To Setup NGROK for Port-Forwading :: \e[0m "
 
