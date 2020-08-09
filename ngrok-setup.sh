@@ -92,8 +92,6 @@ read -p $'\n\e[1;36m[\e[0m\e[1;92m*\e[0m\e[1;36m]\e[0m\e[1;92m Enter port for TC
 
 Config() {
 
-mkdir .ngrok | tee ngrok.yml
-
 echo "authtoken: $auth" > .ngrok2/ngrok.yml
 echo "  " >> .ngrok2/ngrok.yml
 echo "tunnels:" >> .ngrok2/ngrok.yml
