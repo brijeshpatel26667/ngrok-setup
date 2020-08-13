@@ -35,7 +35,7 @@ sleep 0.5
 echo -e "\[1;95m"
 sudo apt install wget toilet figlet unzip ruby
 gem install lolcat
-wget -O $PREFIX/share/figlet/ASCII-Shadow.flf https://raw.githubusercontent.com/xero/figlet-fonts/master/ANSI%20Shadow.flf
+wget -O $PREFIX/usr/share/ASCII-Shadow.flf https://raw.githubusercontent.com/xero/figlet-fonts/master/ANSI%20Shadow.flf
 touch plugins.installed
 
 echo -e "\e[3;96m Dependencies Installed!"
