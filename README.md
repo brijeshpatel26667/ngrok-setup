@@ -1,5 +1,5 @@
 # Ngrok-Setup
-## This is a tool for setting up ngrok and setting up two TCP port and one HTTP port.
+<b> This is a tool for setting up ngrok and setting up two TCP port and one HTTP port.</b>
 
 ## Made By cYBER CRYPTO
 ### Github: github.com/brijeshpatel26667
